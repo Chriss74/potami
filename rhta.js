@@ -194,7 +194,7 @@ recorder.onresult = (event) => {
 //koumpi gia fwnh
 voice.addEventListener('click', () =>{
   recorder.start();
-  setTimeout(function(){ recorder.stop(); }, 10000);
+  setTimeout(function(){ recorder.stop(); }, 60000);
 });
 
 //koumpi gia na stamataei na milaei
